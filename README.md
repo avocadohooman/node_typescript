@@ -27,6 +27,7 @@ add to your package.json filer under scripts: `"tsc": "tsc"` before executing th
 For client <> server communication.
 
 `npm install cors`
+
 `npm install --save-dev @types/cors`
 
 ## Installing dotenv for accessing .env variables
