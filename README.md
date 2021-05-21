@@ -23,7 +23,8 @@ add to your package.json filer under scripts: `"tsc": "tsc"` before executing th
 ## Installing ts-node for dev mode
 `npm install --save-dev ts-node-dev`
 
-## Installing Cors for cross development enviroment (local client <> server communication)
+## Installing Cors for cross development enviroment
+For client <> server communication.
 `npm install cors`
 `npm install --save-dev @types/cors`
 
