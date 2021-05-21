@@ -18,6 +18,7 @@ add to your package.json filer under scripts: `"tsc": "tsc"` before executing th
 
 ## Installing Eslint and Types Express
 `npm install --save-dev eslint @types/express @typescript-eslint/eslint-plugin`
+
 `@typescript-eslint/parser`
 
 ## Installing ts-node for dev mode
@@ -35,22 +36,29 @@ For client <> server communication.
 
 ## Installing Cors & Types Cors
 `npm install cors` 
+
 `npm install --save-dev @types/cors`
 
 ## Installing PostgreSQL and PostgresSQL Types
 `npm install pg`
+
 `npm install --save @types/pg`
 
 ## Installing Jest & Supertest for Integration testing
 `npm install --save-dev jest`
+
 `npm install supertest --save-dev`
 
 ## Configuring Jest & Suptertest for typescript
 `npm i -D jest typescript`
+
 `npm i -D ts-jest @types/jest`	
+
 `npx ts-jest config:init`	
+
 `npm install --save @types/supertest`
 
 ## Installing and opening Cypress for End-to-End testing
 `npm install cypress --save-dev`
+
 `npx cypress open`
