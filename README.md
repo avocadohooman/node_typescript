@@ -8,7 +8,9 @@ Basic commands to setup a Node Typescript server using PostgreSQL
 ## Insalling typescript
 `npm install typescript --save-dev`
 
-## Initiating typescript (add to your package.json filer under scripts ' "tsc": "tsc" ')
+## Initiating typescript 
+add to your package.json filer under scripts: `"tsc": "tsc"` before executing the command
+
 `npm run tsc -- --init`
 
 ## Installing Express server
