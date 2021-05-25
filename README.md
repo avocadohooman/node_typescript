@@ -17,9 +17,7 @@ add to your package.json filer under scripts: `"tsc": "tsc"` before executing th
 `npm install express`
 
 ## Installing Eslint and Types Express
-`npm install --save-dev eslint @types/express @typescript-eslint/eslint-plugin`
-
-`@typescript-eslint/parser`
+`npm install --save-dev eslint @types/express @typescript-eslint/eslint-plugin @typescript-eslint/parser`
 
 ## Installing ts-node for dev mode
 `npm install --save-dev ts-node-dev`
@@ -33,11 +31,6 @@ For client <> server communication.
 
 ## Installing dotenv for accessing .env variables
 `npm install dotenv` 
-
-## Installing Cors & Types Cors
-`npm install cors` 
-
-`npm install --save-dev @types/cors`
 
 ## Installing PostgreSQL and PostgresSQL Types
 `npm install pg`
